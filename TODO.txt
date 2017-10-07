@@ -1,0 +1,3 @@
+- Police bandeau à faire importer par le navigateur.
+- Images sur fond noir.
+- Diaporama, etc.
