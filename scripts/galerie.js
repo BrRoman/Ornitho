@@ -7,6 +7,7 @@ images.push("aigrette_3");
 images.push("lune_sapin");
 images.push("aigrette_0");
 images.push("coucou");
+images.push("pieride_navet");
 images.push("fleurs_printemps");
 images.push("martin_pecheur_cessey");
 images.push("prunus_sapin");
@@ -17,8 +18,11 @@ images.push("demi_deuil_hauteroche");
 images.push("mesange_pluie");
 images.push("jeune_plante");
 images.push("nuage_etourneaux");
+images.push("petit_gravelot");
 images.push("alpes_lever_soleil_rouge");
+images.push("maudit");
 images.push("moro_sphinx");
+images.push("gren_agile");
 images.push("renard_neige_plaine");
 
 // Overlay (initialisation de la variable + hauteur) :
