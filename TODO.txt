@@ -1,3 +1,2 @@
-- Police bandeau à faire importer par le navigateur.
-- Images sur fond noir.
-- Diaporama, etc.
+- Plusieurs photos documentaires par espèces, distinctes des photos de la galerie : recherche par le champ "abréviation" ?
+- Slide en douceur pour vignettes galerie.
