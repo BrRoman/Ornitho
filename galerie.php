@@ -36,6 +36,7 @@
                         $images[] = "lune_sapin";
                         $images[] = "aigrette_0";
                         $images[] = "coucou";
+                        $images[] = "pieride_navet";
                         $images[] = "fleurs_printemps";
                         $images[] = "martin_pecheur_cessey";
                         $images[] = "prunus_sapin";
@@ -46,8 +47,11 @@
                         $images[] = "mesange_pluie";
                         $images[] = "jeune_plante";
                         $images[] = "nuage_etourneaux";
+                        $images[] = "petit_gravelot";
                         $images[] = "alpes_lever_soleil_rouge";
+                        $images[] = "maudit";
                         $images[] = "moro_sphinx";
+                        $images[] = "gren_agile";
                         $images[] = "renard_neige_plaine";
                     ?>
                     <img id="close_button" src="images/close_button.png"/>
