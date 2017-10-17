@@ -10,6 +10,7 @@ images.push("coucou");
 images.push("pieride_navet");
 images.push("fleurs_printemps");
 images.push("martin_pecheur_cessey");
+images.push("epeichette");
 images.push("prunus_sapin");
 images.push("aigrette_5");
 images.push("chevreuil_fontenelles");
