@@ -18,6 +18,7 @@ images.push("lever_soleil_nuages");
 images.push("demi_deuil_hauteroche");
 images.push("mesange_pluie");
 images.push("jeune_plante");
+images.push("rougequeue");
 images.push("nuage_etourneaux");
 images.push("petit_gravelot");
 images.push("alpes_lever_soleil_rouge");
