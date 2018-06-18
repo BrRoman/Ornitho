@@ -47,10 +47,12 @@
                         $images[] = "demi_deuil_hauteroche";
                         $images[] = "mesange_pluie";
                         $images[] = "jeune_plante";
+                        $images[] = "rougequeue";
                         $images[] = "nuage_etourneaux";
                         $images[] = "petit_gravelot";
                         $images[] = "alpes_lever_soleil_rouge";
                         $images[] = "maudit";
+                        $images[] = "fouine";
                         $images[] = "moro_sphinx";
                         $images[] = "gren_agile";
                         $images[] = "renard_neige_plaine";
