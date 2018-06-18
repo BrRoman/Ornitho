@@ -23,6 +23,7 @@ images.push("nuage_etourneaux");
 images.push("petit_gravelot");
 images.push("alpes_lever_soleil_rouge");
 images.push("maudit");
+images.push("fouine");
 images.push("moro_sphinx");
 images.push("gren_agile");
 images.push("renard_neige_plaine");

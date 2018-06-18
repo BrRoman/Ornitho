@@ -52,6 +52,7 @@
                         $images[] = "petit_gravelot";
                         $images[] = "alpes_lever_soleil_rouge";
                         $images[] = "maudit";
+                        $images[] = "fouine";
                         $images[] = "moro_sphinx";
                         $images[] = "gren_agile";
                         $images[] = "renard_neige_plaine";
