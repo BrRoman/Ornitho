@@ -1,4 +1,0 @@
-- Plusieurs photos documentaires par espèces, distinctes des photos de la galerie : recherche par le champ "abréviation" ?
-- Slide en douceur pour vignettes galerie.
-- Galerie : grouper photos par thèmes et faire une présentation avant chaque groupe.
-- Bouvreuil.
