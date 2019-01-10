@@ -1,6 +1,7 @@
 <div id="bandeau">
     <div id="carrousel">
         <img src="bandeaux/crecerelle.jpg"/>
+        <img src="bandeaux/gd.jpg"/>
         <img src="bandeaux/grues.jpg"/>
         <img src="bandeaux/anax.jpg"/>
         <img src="bandeaux/milan_royal.jpg"/>

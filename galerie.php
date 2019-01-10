@@ -40,6 +40,7 @@
                         $images[] = "fleurs_printemps";
                         $images[] = "martin_pecheur_cessey";
                         $images[] = "epeichette";
+                        $images[] = "gd";
                         $images[] = "prunus_sapin";
                         $images[] = "aigrette_5";
                         $images[] = "chevreuil_fontenelles";
