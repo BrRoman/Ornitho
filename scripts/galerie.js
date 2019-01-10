@@ -11,6 +11,7 @@ images.push("pieride_navet");
 images.push("fleurs_printemps");
 images.push("martin_pecheur_cessey");
 images.push("epeichette");
+images.push("gd");
 images.push("prunus_sapin");
 images.push("aigrette_5");
 images.push("chevreuil_fontenelles");
@@ -59,7 +60,7 @@ entry.addEventListener("click", function(e){
     overlay.style.display = "flex";
 });
 
-// Gestion des clics sur vignettes en bas de la galerie :
+// Gestion des clics sur vignettes de la galerie :
 var links = document.querySelectorAll("#img_list a");
 var links_length = links.length;
 for(var i = 0; i < links_length; i++){
