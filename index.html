@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <?php include("includes/head.php");?>
+        <meta charset="utf-8" />
+<link rel="icon" sizes="200x200" href="images/ornitho.png" />
+<link rel="stylesheet" href="styles.css" />
+<title>Ornitho - Voir le parc autrement</title>
+
 	</head>
 	<body>
 		<div id="bloc_page">
 			<header>
-				<?php include("includes/header.php");?>
+				<div id="bandeau">
+    <div id="carrousel">
+        <img src="bandeaux/crecerelle.jpg"/>
+        <img src="bandeaux/gd.jpg"/>
+        <img src="bandeaux/grues.jpg"/>
+        <img src="bandeaux/anax.jpg"/>
+        <img src="bandeaux/milan_royal.jpg"/>
+        <img src="bandeaux/oedipode.jpg"/>
+    </div>
+    <div id="texte_bandeau">
+        <h1><a href="index.html">Ornitho</a></h1>
+        <h2>Voir le parc autrement…</h2>
+    </div>
+</div>
+
+<script src="scripts/jquery-3.2.1.js"></script>
+<script src="scripts/animate.js"></script>
+
 			</header>
 			
 			<section>
 				<nav>
-				    <?php
-                        $current_page = "index";
-                        include("includes/nav.php");
-                    ?>
+				    <ul>
+    <li><a class="current_link" href="index.html">ACCUEIL</a></li>
+    <li><a  href="oiseaux.html">OISEAUX</a></li>
+    <li><a  href="mammiferes.html">MAMMIFÈRES</a></li>
+    <li><a  href="reptiles.html">REPTILES</a></li>
+    <li><a  href="amphibiens.html">AMPHIBIENS</a></li>
+    <li><a  href="libellules.html">LIBELLULES</a></li>
+    <li><a  href="papillons.html">PAPILLONS</a></li>
+    <li><a  href="sauterelles.html">SAUTERELLES</a></li>
+    <li><a  href="galerie.html">GALERIE</a></li>
+</ul>
+
 				</nav>
 				
 				<article>
