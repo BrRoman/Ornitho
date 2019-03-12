@@ -142,17 +142,3 @@ function change_main(link){
         img_new = null;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

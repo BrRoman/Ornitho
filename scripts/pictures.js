@@ -20,7 +20,6 @@ function displayImg(link, maxW, maxH){
             var reduc = 1;
         img.width = Math.round(img.width / reduc);
         img.height = Math.round(img.height / reduc);
-        img.style.marginTop = "75px";
         overlay.appendChild(img);
     });
     
