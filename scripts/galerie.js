@@ -87,13 +87,13 @@ button_left.addEventListener("click", function(e){
         else{
             new_offset = offset - 1;}
         var vignette = document.querySelector("#image_" + i);
-        vignette.src = "vignettes/_galerie/" + images[new_offset] + "_thumb.jpg";
+        vignette.src = "vignettes/galerie/" + images[new_offset] + "_thumb.jpg";
         vignette.alt = images[new_offset];
         var link = document.querySelector("#link_" + i);
-        link.href = "images/_galerie/" + images[new_offset] + ".jpg";
+        link.href = "images/galerie/" + images[new_offset] + ".jpg";
         }
     var img_milieu = document.querySelector("#image_2").alt;
-    change_main("images/_galerie/" + img_milieu + ".jpg");
+    change_main("images/galerie/" + img_milieu + ".jpg");
 });
 
 // Bouton image suivante :
@@ -107,13 +107,13 @@ button_right.addEventListener("click", function(e){
         else{
             new_offset = offset + 1;}
         var vignette = document.querySelector("#image_" + i);
-        vignette.src = "vignettes/_galerie/" + images[new_offset] + "_thumb.jpg";
+        vignette.src = "vignettes/galerie/" + images[new_offset] + "_thumb.jpg";
         vignette.alt = images[new_offset];
         var link = document.querySelector("#link_" + i);
-        link.href = "images/_galerie/" + images[new_offset] + ".jpg";
+        link.href = "images/galerie/" + images[new_offset] + ".jpg";
         }
     var img_milieu = document.querySelector("#image_2").alt;
-    change_main("images/_galerie/" + img_milieu + ".jpg");
+    change_main("images/galerie/" + img_milieu + ".jpg");
 });
 
 
