@@ -15,6 +15,7 @@ images.push("gd");
 images.push("prunus_sapin");
 images.push("aigrette_5");
 images.push("chevreuil_fontenelles");
+images.push("azure");
 images.push("lever_soleil_nuages");
 images.push("demi_deuil_hauteroche");
 images.push("mesange_pluie");
