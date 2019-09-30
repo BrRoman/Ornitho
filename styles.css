@@ -21,9 +21,6 @@ article h1{
 body{
 	background: rgba(250, 230, 210, 0.5);}
 
-img{
-}
-
 li{
 	display: inline;
     margin-right: 5px;
@@ -172,6 +169,12 @@ th{
 #img_main{
     border: 5px solid white;
     margin-top: 0px;}
+
+#logo_github{
+    height: 32px;
+    margin-top: 50px;
+    width: 32px;
+}
 
 #nom{
 	color: purple;}
