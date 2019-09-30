@@ -14,7 +14,7 @@ $(document).ready(function(){
             current_img.fadeOut(2000);
             next_img.fadeIn(2000);
             slideImg();
-        }, 7000);
+        }, 5000);
     }
 slideImg();
 });
