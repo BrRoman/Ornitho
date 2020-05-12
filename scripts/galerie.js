@@ -34,6 +34,15 @@ images.push("pieride_navet");
 images.push("prunus_sapin");
 images.push("renard_neige_plaine");
 images.push("rougequeue");
+images.push("sables_mouette");
+images.push("sables_sanderling");
+images.push("sables_garzette_noir_et_blanc");
+images.push("sables_galets");
+images.push("sables_tournepierres");
+images.push("sables_goelands");
+images.push("sables_tournepierre");
+images.push("sables_ecume_soir");
+images.push("sables_coucher_soleil");
 
 // Overlay (initialisation de la variable + hauteur) :
 var overlay = document.querySelector("#overlay");
