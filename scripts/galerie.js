@@ -43,6 +43,7 @@ images.push("sables_goelands");
 images.push("sables_tournepierre");
 images.push("sables_ecume_soir");
 images.push("sables_coucher_soleil");
+images.push("guepier");
 
 // Overlay (initialisation de la variable + hauteur) :
 var overlay = document.querySelector("#overlay");
