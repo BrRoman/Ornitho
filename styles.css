@@ -291,6 +291,12 @@ th {
     color: rgba(200, 240, 210, 1);
 }
 
+.galleria {
+    background: black;
+    height: 700px;
+    width: 1206px;
+}
+
 .vignette {
     border: 1px solid white;
     border-radius: 2px;

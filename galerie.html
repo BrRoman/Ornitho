@@ -4,6 +4,8 @@
         <meta charset="utf-8" />
         <link rel="icon" sizes="200x200" href="images/ornitho.png" />
         <link rel="stylesheet" href="styles.css" />
+        <script src="scripts/jquery-3.3.1.min.js"></script>
+        <script src="scripts/galleria/galleria.min.js"></script>
         <title>Ornitho - Voir le parc autrement</title>
     </head>
     <body>
@@ -38,35 +40,81 @@
                         <li><a class="current_link" href="galerie.html">GALERIE</a></li>
                     </ul>
                 </nav>
-                <article>
-                    <div id="galerie_accueil">
-                        <img src="images/galerie.jpg"/>
-                        <div id="cliquez">Cliquez sur l'image pour entrer dans la galerie photos.</div>
-                    </div>
-                    <a href="https://github.com/BrRoman/ornitho"><img id="logo_github" src="images/github.png" title="View my source code on Github"></a>
-                </article>
-                <div id="overlay">
-                    <img id="close_button" src="images/close_button.png"/>
-                    <div id="img_list">
-                        <img id="arrow_left" src="images/arrow_left.png" />
-                        <ul>
-                            <li><a id="link_0" href="images/galerie/aigrette_0.jpg"><img id="image_0" class="vignette" src="vignettes/galerie/aigrette_0_thumb.jpg" alt=aigrette_0 /></a></li>
-                            <li><a id="link_1" href="images/galerie/aigrette_3.jpg"><img id="image_1" class="vignette" src="vignettes/galerie/aigrette_3_thumb.jpg" alt=aigrette_3 /></a></li>
-                            <li><a id="link_2" href="images/galerie/aigrette_5.jpg"><img id="image_2" class="vignette" src="vignettes/galerie/aigrette_5_thumb.jpg" alt=aigrette_5 /></a></li>
-                            <li><a id="link_3" href="images/galerie/alpes_lever_soleil_rouge.jpg"><img id="image_3" class="vignette" src="vignettes/galerie/alpes_lever_soleil_rouge_thumb.jpg" alt=alpes_lever_soleil_rouge /></a></li>
-                            <li><a id="link_4" href="images/galerie/azure.jpg"><img id="image_4" class="vignette" src="vignettes/galerie/azure_thumb.jpg" alt=azure /></a></li>
-                        </ul>
-                        <img id="arrow_right" src="images/arrow_right.png" />
-                    </div>
-                    <div id="central_image">
-                        <img id="img_main" src="images/galerie/charmille.jpg"/>
-                    </div>
+
+                <div class="galleria">
+                    <img src="images/galerie/aigrette_0.jpg">
+                    <img src="images/galerie/aigrette_1.jpg">
+                    <img src="images/galerie/aigrette_2.jpg">
+                    <img src="images/galerie/aigrette_3.jpg">
+                    <img src="images/galerie/aigrette_4.jpg">
+                    <img src="images/galerie/aigrette_5.jpg">
+                    <img src="images/galerie/aigrette_et_chevreuils.jpg">
+                    <img src="images/galerie/alpes_lever_soleil_rouge.jpg">
+                    <img src="images/galerie/azure.jpg">
+                    <img src="images/galerie/bionnassay.jpg">
+                    <img src="images/galerie/buse.jpg">
+                    <img src="images/galerie/charmille.jpg">
+                    <img src="images/galerie/chevreuil_fontenelles.jpg">
+                    <img src="images/galerie/chevreuil.jpg">
+                    <img src="images/galerie/coucou.jpg">
+                    <img src="images/galerie/demi_deuil_hauteroche.jpg">
+                    <img src="images/galerie/ecureuil.jpg">
+                    <img src="images/galerie/epeichette.jpg">
+                    <img src="images/galerie/faucon_pelerin.jpg">
+                    <img src="images/galerie/flavigny.jpg">
+                    <img src="images/galerie/fleurs_printemps.jpg">
+                    <img src="images/galerie/fouine.jpg">
+                    <img src="images/galerie/gd.jpg">
+                    <img src="images/galerie/gren_agile.jpg">
+                    <img src="images/galerie/grues.jpg">
+                    <img src="images/galerie/guepier.jpg">
+                    <img src="images/galerie/heron_les_laumes.jpg">
+                    <img src="images/galerie/jeune_plante.jpg">
+                    <img src="images/galerie/lever_soleil_hiver_sapins.jpg">
+                    <img src="images/galerie/lever_soleil.jpg">
+                    <img src="images/galerie/lever_soleil_nuages.jpg">
+                    <img src="images/galerie/lune_sapin.jpg">
+                    <img src="images/galerie/martin_pecheur_cessey.jpg">
+                    <img src="images/galerie/maudit.jpg">
+                    <img src="images/galerie/mesange_pluie.jpg">
+                    <img src="images/galerie/mont_blanc.jpg">
+                    <img src="images/galerie/moro_sphinx.jpg">
+                    <img src="images/galerie/nuage_etourneaux.jpg">
+                    <img src="images/galerie/ochlodes_sylvanus.jpg">
+                    <img src="images/galerie/petit_gravelot.jpg">
+                    <img src="images/galerie/pieride_navet.jpg">
+                    <img src="images/galerie/prunus_sapin.jpg">
+                    <img src="images/galerie/renard_neige_plaine.jpg">
+                    <img src="images/galerie/rougequeue.jpg">
+                    <img src="images/galerie/sables_coucher_soleil.jpg">
+                    <img src="images/galerie/sables_ecume_soir.jpg">
+                    <img src="images/galerie/sables_galets.jpg">
+                    <img src="images/galerie/sables_garzette_noir_et_blanc.jpg">
+                    <img src="images/galerie/sables_goelands.jpg">
+                    <img src="images/galerie/sables_mouette.jpg">
+                    <img src="images/galerie/sables_sanderling.jpg">
+                    <img src="images/galerie/sables_tournepierre.jpg">
+                    <img src="images/galerie/sables_tournepierres.jpg">
                 </div>
+
+                <script>
+                    (function() {
+                        Galleria.loadTheme('scripts/galleria/themes/azur/galleria.azur.min.js');
+                        Galleria.run('.galleria', {
+                            carouselSpeed: 50,
+                            fullscreenTransition: 'fade',
+                            imageCrop: false,
+                            transition: 'fade',
+                            transitionSpeed: 1000,
+                        });
+                    }());
+                </script>
+
+                <h6 style="text-align: center;">Powered by <a href="https://galleriajs.github.io">Galleria</a></h6>
+
+                <article><a href="https://github.com/BrRoman/ornitho"><img id="logo_github" src="images/github.png" title="View my source code on Github"></a></article>
             </section>
         </div>
-        <script src="scripts/jquery-3.3.1.min.js"></script>
-        <script src="scripts/animate.js"></script>
-        <script src="scripts/galerie.js"></script>
     </body>
 </html>
 
