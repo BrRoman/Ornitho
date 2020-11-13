@@ -297,6 +297,10 @@ th {
     width: 1206px;
 }
 
+.galleria-info-description {
+    margin-top: 10px !important;
+}
+
 .vignette {
     border: 1px solid white;
     border-radius: 2px;
