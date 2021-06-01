@@ -43,48 +43,42 @@
 
                 <div id="bienvenue" style="height: auto; margin: 15px 0px 0px 0px; text-align: center;">Bienvenue sur la galerie Ornitho !</div>
 
-                <a href="/ornitho/galerie-paysages.html">Paysages</a>
-                <a href="/ornitho/galerie-oiseaux.html">Galerie oiseaux</a>
-                <a href="/ornitho/galerie-mammiferes.html">Mammifères</a>
-                <a href="/ornitho/galerie-reptiles-amphibiens.html">Reptiles et amphibiens</a>
-                <a href="/ornitho/galerie-insectes.html">Insectes</a>
-                <a href="/ornitho/galerie-plantes.html">Plantes</a>
-                <a href="/ornitho/galerie-flavigny.html">Flavigny</a>
+                <div id="links_to_galerie">
+                    <div class="block_link_to_galerie">
+                        <div class="img"><img src="/ornitho/vignettes/links_to_galeries/paysages.jpg" alt="paysages"></div>
+                        <a href="/ornitho/galerie-paysages.html">Paysages</a>
+                    </div>
 
-                <script>
-                    (function() {
-                        Galleria.loadTheme('scripts/galleria/themes/azur/galleria.azur.min.js');
-                        Galleria.run('.galleria', {
-                            carouselSpeed: 50,
-                            fullscreenTransition: 'fade',
-                            imageCrop: false,
-                            transition: 'fade',
-                            transitionSpeed: 1000,
-                        });
-                    }());
-                </script>
+                    <div class="block_link_to_galerie">
+                        <div class="img"><img src="/ornitho/vignettes/links_to_galeries/oiseaux.jpg" alt=""></div>
+                        <a href="/ornitho/galerie-oiseaux.html">Oiseaux</a>
+                    </div>
 
-                <script>
-                    var imgs = document.images,
-                    len = imgs.length,
-                    counter = 0;
+                    <div class="block_link_to_galerie">
+                        <div class="img"><img src="/ornitho/vignettes/links_to_galeries/mammiferes.jpg" alt=""></div>
+                        <a href="/ornitho/galerie-mammiferes.html">Mammifères</a>
+                    </div>
 
-                    [].forEach.call( imgs, function( img ) {
-                        if(img.complete)
-                        incrementCounter();
-                        else
-                        img.addEventListener( 'load', incrementCounter, false );
-                    } );
+                    <div class="block_link_to_galerie">
+                        <div class="img"><img src="/ornitho/vignettes/links_to_galeries/reptiles_amphibiens.jpg" alt=""></div>
+                        <a href="/ornitho/galerie-reptiles-amphibiens.html">Reptiles et amphibiens</a>
+                    </div>
 
-                    function incrementCounter() {
-                        counter++;
-                        if ( counter === len ) {
-                            $("#loading").css("display", "none");
-                        }
-                    }
-                </script>
+                    <div class="block_link_to_galerie">
+                        <div class="img"><img src="/ornitho/vignettes/links_to_galeries/insectes.jpg" alt=""></div>
+                        <a href="/ornitho/galerie-insectes.html">Insectes</a>
+                    </div>
 
-                <h6 style="text-align: center;">Powered by <a href="https://galleriajs.github.io">Galleria</a></h6>
+                    <div class="block_link_to_galerie">
+                        <div class="img"><img src="/ornitho/vignettes/links_to_galeries/plantes.jpg" alt=""></div>
+                        <a href="/ornitho/galerie-plantes.html">Plantes</a>
+                    </div>
+
+                    <div class="block_link_to_galerie">
+                        <div class="img"><img src="/ornitho/vignettes/links_to_galeries/flavigny.jpg" alt=""></div>
+                        <a href="/ornitho/galerie-flavigny.html">Flavigny</a>
+                    </div>
+                </div>
 
                 <article><a href="https://github.com/BrRoman/ornitho"><img id="logo_github" src="images/github.png" title="View my source code on Github"></a></article>
             </section>
